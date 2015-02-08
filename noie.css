@@ -1,5 +1,6 @@
 body {
 	margin: 0px;
+	height: 100vh;
 	overflow: hidden;
 }
 
@@ -20,8 +21,11 @@ body {
 			align-items: center;
 }
 
-img {
+.browser {
 	position: absolute;
+	width: 40vw;
+	height: 40vw;
+	z-index: -1;
 }
 
 img#chrome {
@@ -44,6 +48,3 @@ img#opera {
 	bottom: -20%;
 }
 
-img#title {
-	position: relative;
-}
